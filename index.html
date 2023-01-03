@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>shooting</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        background: beige'
+          
+      }
+      h1 {
+        margin: 0px;
+        margin-bottom: 10px;
+        font-size: 2.9em;
+        color: black;
+      }
+      .controls {
+        display: grid;
+        grid-template-columns: 50px 150px;
+        color: black;
+        margin-bottom: 20px;
+      }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <h1>shooting game</h1>
+
+    <span class="controls">
+      <div>Move:</div>
+      <div>WASD</div>
+      <div>Shoot:</div>
+      <div>Space bar</div>
+    </span>
+    <canvas id="game"></canvas>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
